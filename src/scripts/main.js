@@ -13,7 +13,7 @@ const sortedList = listArray.sort((a, b) => {
 
 const par = document.querySelector('ul');
 
-par.innnerHTML = '';
+par.innerHTML = '';
 
 sortedList.forEach((item) => {
   par.appendChild(item);
